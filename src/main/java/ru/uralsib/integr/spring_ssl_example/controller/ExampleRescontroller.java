@@ -8,6 +8,6 @@ public class ExampleRescontroller {
 
     @GetMapping("/hello")
     public String helloWorld(){
-        return "Hello World!";
+        return "Hello World! With new keys!";
     }
 }
