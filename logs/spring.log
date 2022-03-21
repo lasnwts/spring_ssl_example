@@ -1,0 +1,56 @@
+2022-03-19 21:24:10.456  INFO 15456 --- [restartedMain] r.u.i.s.SpringSslExampleApplication      : Starting SpringSslExampleApplication using Java 11.0.2 on LAPTOP-JJ4A5GU5 with PID 15456 (C:\AppSever\Projects\spring_ssl_example\target\classes started by Alexander in C:\AppSever\Projects\spring_ssl_example)
+2022-03-19 21:24:10.464  INFO 15456 --- [restartedMain] r.u.i.s.SpringSslExampleApplication      : No active profile set, falling back to default profiles: default
+2022-03-19 21:24:10.521  INFO 15456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-19 21:24:10.521  INFO 15456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-19 21:24:11.470  INFO 15456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2022-03-19 21:24:11.480  INFO 15456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-19 21:24:11.480  INFO 15456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-19 21:24:11.533  INFO 15456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-19 21:24:11.534  INFO 15456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2022-03-19 21:24:11.698 DEBUG 15456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-03-19 21:24:11.779 DEBUG 15456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-03-19 21:24:11.781  INFO 15456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-03-19 21:24:11.799 DEBUG 15456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-03-19 21:24:11.806 DEBUG 15456 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-03-19 21:24:11.850  INFO 15456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-19 21:24:12.029  INFO 15456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2022-03-19 21:24:12.038  INFO 15456 --- [restartedMain] r.u.i.s.SpringSslExampleApplication      : Started SpringSslExampleApplication in 2.124 seconds (JVM running for 2.87)
+2022-03-19 21:24:21.794  INFO 15456 --- [https-jsse-nio-8443-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-19 21:24:21.795  INFO 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-19 21:24:21.796 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-03-19 21:24:21.796 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-03-19 21:24:21.796 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-03-19 21:24:21.796 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e3b6c09
+2022-03-19 21:24:21.797 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4b56830d
+2022-03-19 21:24:21.797 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-03-19 21:24:21.797  INFO 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-19 21:24:21.803 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 21:24:21.807 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 21:24:21.825 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 21:24:21.825 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 21:24:21.833 DEBUG 15456 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-03-19 21:53:04.866 DEBUG 15456 --- [https-jsse-nio-8443-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 21:53:04.867 DEBUG 15456 --- [https-jsse-nio-8443-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 21:53:04.868 DEBUG 15456 --- [https-jsse-nio-8443-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 21:53:04.868 DEBUG 15456 --- [https-jsse-nio-8443-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 21:53:04.870 DEBUG 15456 --- [https-jsse-nio-8443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-03-19 21:53:44.248 DEBUG 15456 --- [https-jsse-nio-8443-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 21:53:44.248 DEBUG 15456 --- [https-jsse-nio-8443-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 21:53:44.249 DEBUG 15456 --- [https-jsse-nio-8443-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 21:53:44.249 DEBUG 15456 --- [https-jsse-nio-8443-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 21:53:44.250 DEBUG 15456 --- [https-jsse-nio-8443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-03-19 22:53:43.059 DEBUG 15456 --- [https-jsse-nio-8443-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 22:53:43.060 DEBUG 15456 --- [https-jsse-nio-8443-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 22:53:43.061 DEBUG 15456 --- [https-jsse-nio-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 22:53:43.061 DEBUG 15456 --- [https-jsse-nio-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 22:53:43.062 DEBUG 15456 --- [https-jsse-nio-8443-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-03-19 23:08:53.408 DEBUG 15456 --- [https-jsse-nio-8443-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 23:08:53.408 DEBUG 15456 --- [https-jsse-nio-8443-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 23:08:53.410 DEBUG 15456 --- [https-jsse-nio-8443-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 23:08:53.410 DEBUG 15456 --- [https-jsse-nio-8443-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 23:08:53.410 DEBUG 15456 --- [https-jsse-nio-8443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-03-19 23:09:08.658 DEBUG 15456 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2022-03-19 23:09:08.659 DEBUG 15456 --- [https-jsse-nio-8443-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.uralsib.integr.spring_ssl_example.controller.ExampleRescontroller#helloWorld()
+2022-03-19 23:09:08.659 DEBUG 15456 --- [https-jsse-nio-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-03-19 23:09:08.659 DEBUG 15456 --- [https-jsse-nio-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World! With new keys!"]
+2022-03-19 23:09:08.660 DEBUG 15456 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
